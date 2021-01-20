@@ -1,0 +1,86 @@
+.profile {
+    display: grid;
+    
+    grid-template-areas: 'a b c d'
+    'a e c d';
+    
+    grid-template-columns: 20% 35% 5%;
+
+    
+    border: 1px solid red;
+
+    max-width: 880px;
+    margin: auto;
+
+}
+
+.profile__photo {
+    grid-area: a;
+    border: 1px solid red;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 22px;
+
+}
+
+.profile__name {
+    grid-area: b;
+    margin: 0;
+    padding: 0;
+    margin-top: 22px;
+    border: 1px solid red;
+    color: white;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.profile__edit {
+    grid-area: c;
+    margin-top: 37px;
+    background-image: url(../../../images/edit-button.svg);
+    background-size: cover;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    
+}
+
+.profile__add {
+    grid-area: d;
+    background-image: url(../../../images/add-button.svg);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+
+    justify-self: flex-end;
+    align-self: center;
+    
+    
+}
+
+.profile__job {
+    grid-area: e;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 1;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid red;
+
+    margin-top: 16px;
+    padding: 0;
+}

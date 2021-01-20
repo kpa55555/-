@@ -1,0 +1,19 @@
+.footer {
+max-width: 880px;
+border: red 1px solid;
+margin: auto;
+
+
+}
+
+.footer__caption {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 1;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #545454;
+    margin: 0 22px;
+}
+
